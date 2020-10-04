@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 5b98f90fb5a561748bd5f1e4ff1350c9, type: 3}
+  iconMaxWidth: 128
+  title: SHADRR Library by Daniel Santalla
+  sections:
+  - heading: SHADRR Library
+    text: Version 0.1.1
+    linkText: '@Danielsantalla'
+    url: https://twitter.com/danielsantalla
+  - heading: 
+    text: SHADRR Library is a package meant to democratize shader usage in Unity.
+      The easiest way to describe it is like a "Netflix of shaders", where you can
+      scroll through a catalog of ready-to-use shaders and drop them in your project.The
+      package is made for the Universal Render Pipeline but support for HDRP will
+      come as a future update.
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Some of the Shaders you can find in the package are:'
+    linkText: 
+    url: 
+  - heading: 
+    text: Gradients, Toon, Cell shading, Triplanars, Liquids, Masks, Holograms, Outlines,
+      Scrolling, textures, Refraction, Fire effects, Cubemap effects, Unlit effects.
+    linkText: 
+    url: 
+  - heading: 
+    text: 'Note: This is a project currently in development, so some of the shaders
+      mentioned above may not be in the package yet. You can follow the development
+      checking the Change log or taking a peek in our public Trello. You can use
+      the assets in your games and projects, all I ask is that you do not re-sell
+      or distribute these files.'
+    linkText: 
+    url: 
+  - heading: 
+    text: 
+    linkText: Public Trello
+    url: https://trello.com/b/roU4V6Tp
+  - heading: 
+    text: 
+    linkText: Change log
+    url: https://github.com/Danielsantalla/SHADRR-Library/blob/master/CHANGELOG.md
+  - heading: 
+    text: "Copyright \xA9 2020 DanielSantalla"
+    linkText: 
+    url: 
+  loadedLayout: 1
