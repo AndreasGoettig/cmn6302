@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: ef7c9a88c71f7d04e97d2c96ed44fcaf
 SpeedTreeImporter:
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_LOD0
+    second: {fileID: 2100000, guid: 8cc9e688a2c1b9349b25869805b932c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_LOD1
+    second: {fileID: 2100000, guid: 8cc9e688a2c1b9349b25869805b932c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_LOD2
+    second: {fileID: 2100000, guid: 8cc9e688a2c1b9349b25869805b932c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_3_LOD0
+    second: {fileID: 2100000, guid: 4d776c31f40ac6642871013b396eb71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_3_LOD1
+    second: {fileID: 2100000, guid: 4d776c31f40ac6642871013b396eb71a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_3_LOD2
+    second: {fileID: 2100000, guid: 4d776c31f40ac6642871013b396eb71a, type: 2}
   serializedVersion: 6
   mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}

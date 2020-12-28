@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 56c3f42c4ca8e8a4a9f0655094fcb3eb
 SpeedTreeImporter:
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_LOD0
+    second: {fileID: 2100000, guid: 5e391221d537a1b44bb09f0194b40a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_LOD1
+    second: {fileID: 2100000, guid: 5e391221d537a1b44bb09f0194b40a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_LOD2
+    second: {fileID: 2100000, guid: 5e391221d537a1b44bb09f0194b40a53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_2_LOD0
+    second: {fileID: 2100000, guid: 215894f8a3f0c294aa53b2d11b67e0dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_2_LOD1
+    second: {fileID: 2100000, guid: 215894f8a3f0c294aa53b2d11b67e0dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_2_LOD2
+    second: {fileID: 2100000, guid: 215894f8a3f0c294aa53b2d11b67e0dd, type: 2}
   serializedVersion: 6
   mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}

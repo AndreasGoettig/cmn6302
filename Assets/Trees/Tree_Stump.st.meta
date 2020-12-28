@@ -1,7 +1,17 @@
 fileFormatVersion: 2
 guid: 7e2018a1794b2da42a9fb70378c50760
 SpeedTreeImporter:
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_LOD0
+    second: {fileID: 2100000, guid: 8cc9e688a2c1b9349b25869805b932c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree_Stump_LOD0
+    second: {fileID: 2100000, guid: 0494638f45241dd4c94e9e128cfaae54, type: 2}
   serializedVersion: 6
   mainColor: {r: 1, g: 1, b: 1, a: 1}
   hueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
