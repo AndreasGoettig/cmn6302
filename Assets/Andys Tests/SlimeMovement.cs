@@ -155,7 +155,7 @@ public class SlimeMovement : MonoBehaviour
 		//print(velocity + " velocity");
 		//print(actor.solver.velocities[0]);
 		ApplyVelocitys();
-		print(softbody.solver.velocities[1]);
+		//print(softbody.solver.velocities[1]);
 		ClearState();
 	}
 
