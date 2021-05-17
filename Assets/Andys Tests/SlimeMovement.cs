@@ -268,9 +268,10 @@ public class SlimeMovement : MonoBehaviour
 		groundContactCount = 1;
 		contactNormal = hit.normal;
 		float dot = Vector3.Dot(velocity, hit.normal);
+		contactNormal = (contactNormal + new Vector3(0,1,0)).normalized;
 		if (dot > 0f)
 		{
-			velocity = (velocity - hit.normal * dot).normalized * speed;
+			velocity = (velocity - contactNormal * dot).normalized * speed; 
 		}
 		connectedBody = hit.rigidbody;
 		return true;
@@ -344,6 +345,7 @@ public class SlimeMovement : MonoBehaviour
 		gravity = new Vector3(0, -9.8f, 0);
 		float jumpSpeed = Mathf.Sqrt(2f * gravity.magnitude * jumpHeight);
 		jumpDirection = (jumpDirection + upAxis).normalized;
+		jumpDirection += upAxis;
 		float alignedSpeed = Vector3.Dot(velocity, jumpDirection);
 		if (alignedSpeed > 0f)
 		{
