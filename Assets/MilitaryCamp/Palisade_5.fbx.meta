@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Bark
     second: {fileID: 2100000, guid: 85dbb1b3ede566242b45d150b05bc01e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crosssection
+    second: {fileID: 2100000, guid: 11b386df1c4173a479719155b1160910, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
