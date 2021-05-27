@@ -81,8 +81,8 @@ MonoBehaviour:
   maxRequiredSlopeForErase: 0
   eraseDetection: 0
   paintBrushHotKey: 112
-  paintBrushHoldKey: 1
+  paintBrushHoldKey: 0
   removeBrushHotKey: 32
-  removeBrushHoldKey: 1
+  removeBrushHoldKey: 0
   disableBrushHotKey: 105
   disableBrushHoldKey: 0
