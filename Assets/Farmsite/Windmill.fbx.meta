@@ -7,31 +7,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Metal
-    second: {fileID: 2100000, guid: 33c6f7843d6f48447ade8828e0697601, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: d5d6ae99ac7122e4bb626e787029a8af, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Plaster
-    second: {fileID: 2100000, guid: 0409eec1a2a7fb44a9f9f09a52938618, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rooftiles
-    second: {fileID: 2100000, guid: d5d6ae99ac7122e4bb626e787029a8af, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Stone
-    second: {fileID: 2100000, guid: 27d1355311112764bb7e1df97e5e1305, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Wood
     second: {fileID: 2100000, guid: 85dbb1b3ede566242b45d150b05bc01e, type: 2}
   materials:
