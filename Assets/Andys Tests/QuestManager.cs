@@ -16,8 +16,14 @@ public class QuestManager : MonoBehaviour
     public Quest deliver;
     public Quest goTo;
 
-    private Quest currentQuest;
+    public Quest currentQuest;
+    public Quest LastQuest;
+
     private bool QuestInProgress = false;
+
+    public WheatQuest wheatQuest;
+
+    private int ProgressMin;
 
     public void Update()
     {
@@ -27,6 +33,10 @@ public class QuestManager : MonoBehaviour
 
     public void CheckCurrentStatus()
     {
+        if (currentQuest != LastQuest && QuestInProgress)
+        {
+
+        }
         if (!QuestInProgress)
         {
             LoadQuestData(defaultQuest);
@@ -37,22 +47,43 @@ public class QuestManager : MonoBehaviour
         if (progress.text == currentQuest.questMax+"/"+currentQuest.questMax && progress.text != "0/0")
         {
             //Quest done
+
         }
     }
     public void UpdateQuestStatus()
     {
-       
+        ProgressMin++;
+        progress.text = ProgressMin + "/" + currentQuest.questMax;
+        CheckCurrentQuestStatus();
     }
 
+    public void DeliverQuest()
+    {
+
+    }
     public void LoadQuestData(Quest data)
     {
+        if (data != defaultQuest)
+        {
+            QuestInProgress = true;
+        }
+        else
+        {
+            QuestInProgress = false;
+        }
         description.text = data.description;
         progress.text = data.questMin + "/" + data.questMax;
-        if (progress.text=="0/0")
+        ProgressMin = data.questMin;
+        if (progress.text == "0/0")
         {
             doneCheck.gameObject.SetActive(false);
             progress.text = "";
         }
-        currentQuest = defaultQuest;
-    }
+        LastQuest = currentQuest;
+        currentQuest = data;
+        if (currentQuest == wheat)
+        {
+            wheatQuest.InitQuest();
+        }
+    } 
 }
