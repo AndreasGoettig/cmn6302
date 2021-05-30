@@ -41,7 +41,7 @@ public class QuestManager : MonoBehaviour
     }
     public void UpdateQuestStatus()
     {
-
+       
     }
 
     public void LoadQuestData(Quest data)
