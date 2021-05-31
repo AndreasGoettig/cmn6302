@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31207380edf34b1b84ce50af22f2356, type: 3}
+  m_Name: Pipe_90
+  m_EditorClassIdentifier: 
+  input: {fileID: 8073737332740404392, guid: 4df76eb4838a1a8439fdcd50bd072501, type: 3}
+  minNodeSize: 0.49461898
+  bounds:
+    m_Center: {x: 0, y: 0.394619, z: 0.394619}
+    m_Extent: {x: 0.49461898, y: 0.49461898, z: 0.49461898}
+  nodes:
+  - distancesA: {x: 0.500643, y: 0.35675532, z: 0.35675532, w: 0.61753494}
+    distancesB: {x: 0.500643, y: 0.35675532, z: 0.35675532, w: 0.6175355}
+    center: {x: 0, y: 0.39461896, z: 0.39461896, w: 0.49461898}
+    firstChild: 1
+  - distancesA: {x: 0.500643, y: 0.24367747, z: 0.24367744, w: 0.24479225}
+    distancesB: {x: 0.32841793, y: 0.100053616, z: 0.100053616, w: -0.22872876}
+    center: {x: -0.24730949, y: 0.14730947, z: 0.14730947, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.24367747, y: 0.35675532, z: 0.24479225, w: 0.4186858}
+    distancesB: {x: 0.100053616, y: 0.14574553, z: -0.22872879, w: 0.19861266}
+    center: {x: -0.24730949, y: 0.14730947, z: 0.64192843, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.24367744, y: 0.24479225, z: 0.35675532, w: 0.41868654}
+    distancesB: {x: 0.100053616, y: -0.22872877, z: 0.14574553, w: 0.19861266}
+    center: {x: -0.24730949, y: 0.64192843, z: 0.14730947, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.24479225, y: 0.4186858, z: 0.41868654, w: 0.61753494}
+    distancesB: {x: -0.2287288, y: 0.19861266, z: 0.19861265, w: 0.4635473}
+    center: {x: -0.24730949, y: 0.64192843, z: 0.64192843, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.32841793, y: 0.100053616, z: 0.100053616, w: -0.22872876}
+    distancesB: {x: 0.500643, y: 0.24367782, z: 0.24367782, w: 0.24479225}
+    center: {x: 0.24730949, y: 0.14730947, z: 0.14730947, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.100053616, y: 0.14574553, z: -0.22872879, w: 0.19861266}
+    distancesB: {x: 0.24367782, y: 0.35675532, z: 0.24479225, w: 0.41868788}
+    center: {x: 0.24730949, y: 0.14730947, z: 0.64192843, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: 0.100053616, y: -0.22872877, z: 0.14574553, w: 0.19861266}
+    distancesB: {x: 0.24367782, y: 0.24479225, z: 0.35675532, w: 0.4186871}
+    center: {x: 0.24730949, y: 0.64192843, z: 0.14730947, w: 0.24730949}
+    firstChild: -1
+  - distancesA: {x: -0.2287288, y: 0.19861266, z: 0.19861265, w: 0.4635473}
+    distancesB: {x: 0.24479225, y: 0.41868785, z: 0.41868708, w: 0.6175355}
+    center: {x: 0.24730949, y: 0.64192843, z: 0.64192843, w: 0.24730949}
+    firstChild: -1
+  maxError: 0.01
+  maxDepth: 5
