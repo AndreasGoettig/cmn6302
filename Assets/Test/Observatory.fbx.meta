@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Observatory1
+    second: {fileID: 2100000, guid: 24359c991fe15d64b894ac1e61f698d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Observer_Base
     second: {fileID: 2100000, guid: 27d1355311112764bb7e1df97e5e1305, type: 2}
   - first:
@@ -19,6 +24,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Observer_Tower
     second: {fileID: 2100000, guid: 33c6f7843d6f48447ade8828e0697601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teleskope
+    second: {fileID: 2100000, guid: cd71291c91c8cce499cb663b5db9970e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
