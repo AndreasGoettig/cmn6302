@@ -8,4 +8,5 @@ public class Quest : ScriptableObject
     public string description;
     public int questMax;
     public int questMin;
+    public int Belohnung;
 }

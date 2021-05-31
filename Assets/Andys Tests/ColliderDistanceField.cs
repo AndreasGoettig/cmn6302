@@ -13,7 +13,7 @@ public class ColliderDistanceField : MonoBehaviour
     {
         if (other.CompareTag("Tree"))
         {
-            print("entered tree");
+
             Transform child = other.transform.GetChild(0);
             print(child.name);
             child.gameObject.SetActive(true);
@@ -24,7 +24,7 @@ public class ColliderDistanceField : MonoBehaviour
     {
         if (other.CompareTag("Tree"))
         {
-            print("left tree");
+
             Transform child = other.transform.GetChild(0);
             child.gameObject.SetActive(false);
             colliders.Remove(child.gameObject);

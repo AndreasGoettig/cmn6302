@@ -15,3 +15,4 @@ MonoBehaviour:
   description: Defeat all Enemies
   questMax: 3
   questMin: 0
+  Belohnung: 100
