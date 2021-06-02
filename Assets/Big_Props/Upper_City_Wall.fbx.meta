@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Bricks
     second: {fileID: 2100000, guid: a146c9cd7d4bf7342962045f47008777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone
+    second: {fileID: 2100000, guid: 27d1355311112764bb7e1df97e5e1305, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
