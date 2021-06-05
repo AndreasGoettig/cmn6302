@@ -20,7 +20,6 @@ public class NpcInteraction : MonoBehaviour
     public TMP_Text buttonText;
     public void Awake()
     {
-        buttonText.gameObject.SetActive(false);
     }
     public void Update()
     {
