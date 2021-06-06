@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TWaterfall extra
+  m_Name: TWaterfall extra 1
   m_Shader: {fileID: -6465566751694194690, guid: fb38bf39da8d05e45959b3d07334b36a,
     type: 3}
   m_ShaderKeywords: 
@@ -40,7 +40,7 @@ Material:
     - Vector1_F278FEE0: 0
     m_Colors:
     - Color_1DEAAAEB: {r: 1, g: 1, b: 1, a: 0}
-    - Color_51316B18: {r: 0.23113209, g: 1, b: 1, a: 1}
+    - Color_51316B18: {r: 0.043137256, g: 0.3137255, b: 0.5137255, a: 1}
     - Color_A038EF66: {r: 0.20392159, g: 0.30980393, b: 0.5176471, a: 1}
-    - Color_B3D1197F: {r: 0, g: 0.7725491, b: 0.62352943, a: 1}
+    - Color_B3D1197F: {r: 0.41189036, g: 0.7371712, b: 0.9811321, a: 1}
     - Vector2_BDC8430A: {r: 1, g: 0, b: 0, a: 0}
