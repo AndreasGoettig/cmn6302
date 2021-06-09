@@ -242,6 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7091841304997039042}
   - component: {fileID: 8523448086741124005}
+  - component: {fileID: 6254034697909154715}
   m_Layer: 0
   m_Name: Wheatbundle3
   m_TagString: Untagged
@@ -280,6 +281,35 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0.51, z: 0}
+--- !u!114 &6254034697909154715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7091841304997039041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b871c74662c23945bf35b97caee462a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  incrementOn: 0
+  variable: wheatCollected
+  increment: 1
+  min: 0
+  max: 3
+  alertMessage: +1
+  alertDuration: 0
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  onIncrement:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &7091841304620030634
 PrefabInstance:
   m_ObjectHideFlags: 0
