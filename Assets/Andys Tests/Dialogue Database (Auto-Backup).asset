@@ -408,7 +408,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("Collect wheat", "active");
       onExecute:
         m_PersistentCalls:
           m_Calls:

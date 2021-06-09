@@ -243,6 +243,8 @@ GameObject:
   - component: {fileID: 7091841304997039042}
   - component: {fileID: 8523448086741124005}
   - component: {fileID: 6254034697909154715}
+  - component: {fileID: 3829690263510376912}
+  - component: {fileID: 7909553331355760031}
   m_Layer: 0
   m_Name: Wheatbundle3
   m_TagString: Untagged
@@ -276,10 +278,10 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7091841304997039041}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 0.76
   m_Center: {x: 0, y: 0.51, z: 0}
 --- !u!114 &6254034697909154715
 MonoBehaviour:
@@ -293,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b871c74662c23945bf35b97caee462a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  incrementOn: 0
+  incrementOn: 1
   variable: wheatCollected
   increment: 1
   min: 0
@@ -310,6 +312,110 @@ MonoBehaviour:
   onIncrement:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3829690263510376912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7091841304997039041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions:
+    - Variable["wheatCollected"] >= 3
+    questConditions:
+    - questName: Collect wheat
+      questState: 2
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: 
+  conversationConversant: {fileID: 0}
+  conversationActor: {fileID: 0}
+  startConversationEntryID: -1
+  exclusive: 0
+  skipIfNoValidEntries: 0
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions:
+  - condition:
+      luaConditions: []
+      questConditions: []
+      acceptedTags: []
+      acceptedGameObjects: []
+      luaWizardIndex: 0
+      lastEvaluationValue: 0
+    target: {fileID: 7091841304997039042}
+    state: 1
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 124ce3ff6e19f6f4c983b6bfa1eb2e8b, type: 2}
+--- !u!114 &7909553331355760031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7091841304997039041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: 
+  overrideUseMessage: 
+  maxUseDistance: 5
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1001 &7091841304620030634
 PrefabInstance:
   m_ObjectHideFlags: 0
