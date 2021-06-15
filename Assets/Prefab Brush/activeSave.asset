@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: activeSave
   m_EditorClassIdentifier: 
   prefabList: []
-  prefabData: []
+  prefabData:
+  - prefab: {fileID: -927199367670048503, guid: d65bab743f2ff0443a6703470e679152,
+      type: 3}
+    selected: 1
   paintType: 0
   brushSize: 5.6
   minBrushSize: 0.1
@@ -56,7 +59,7 @@ MonoBehaviour:
   maxZRotation: 0
   scaleType: 1
   scaleApplicationType: 0
-  minScale: 1
+  minScale: 0.6
   maxScale: 1
   minXScale: 1
   maxXScale: 1
