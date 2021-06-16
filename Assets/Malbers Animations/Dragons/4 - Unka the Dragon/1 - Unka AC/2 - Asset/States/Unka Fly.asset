@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35363fa86a09c2d4aa6a51d44b66cdd5, type: 3}
   m_Name: Unka Fly
   m_EditorClassIdentifier: 
-  Index: 1
   Active: 1
-  ID: {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
   Input: Fly
+  Priority: 7
   General:
     modify: 7679
     RootMotion: 0
@@ -72,30 +71,86 @@ MonoBehaviour:
     UseConstant: 1
     ConstantValue: 1
     Variable: {fileID: 0}
+  EnterTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
+  ExitTag:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}
   ExitFrame: 1
   ExitOnMain: 1
+  ExitCooldown:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  CanStrafe: 0
+  MovementStrafe: 1
+  IdleStrafe: 1
   debug: 0
+  Editor_Tabs1: 0
+  ID: {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
   Bank: 30
   Ylimit: 80
+  BankStrafe: 0
+  YlimitStrafe: 0
+  InertiaLerp:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
   AlwaysForward:
     UseConstant: 1
     ConstantValue: 0
     Variable: {fileID: 0}
+  Impulse:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  ImpulseTime:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  ImpulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   canLand:
     UseConstant: 1
     ConstantValue: 1
     Variable: {fileID: 0}
+  LandOn:
+    serializedVersion: 2
+    m_Bits: 1
   LandMultiplier:
     UseConstant: 1
     ConstantValue: 1.5
     Variable: {fileID: 0}
-  InertiaTime:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  AvoidWater: 0
-  WRadius: 0.1
-  WDistance: 0.5
+  AvoidSurface: 0
+  SurfaceDistance: 0.5
+  SurfaceLayer:
+    serializedVersion: 2
+    m_Bits: 16
   GlideOnly:
     UseConstant: 1
     ConstantValue: 0
