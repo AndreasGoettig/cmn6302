@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31207380edf34b1b84ce50af22f2356, type: 3}
+  m_Name: Stool
+  m_EditorClassIdentifier: 
+  input: {fileID: -4102455882285522874, guid: 0f06b672de2aeaa499b2cc9cb7d3bbf0, type: 3}
+  minNodeSize: 0.32949218
+  bounds:
+    m_Center: {x: 0, y: 0.20742625, z: 0}
+    m_Extent: {x: 0.32949218, y: 0.32949218, z: 0.32949218}
+  nodes:
+  - distancesA: {x: 0.34681678, y: 0.34896743, z: 0.27669373, w: 0.27669373}
+    distancesB: {x: 0.26406735, y: 0.27200162, z: 0.2724316, w: 0.2724316}
+    center: {x: 0, y: 0.20742625, z: 0, w: 0.32949218}
+    firstChild: 1
+  - distancesA: {x: 0.34681678, y: 0.15780266, z: 0.29152843, w: 0.16516079}
+    distancesB: {x: 0.23270473, y: 0.21196043, z: 0.19055231, w: 0.091508254}
+    center: {x: -0.16474609, y: 0.04268016, z: -0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.15780266, y: 0.34896743, z: 0.16516079, w: 0.29152843}
+    distancesB: {x: 0.21196043, y: 0.1956104, z: 0.091508254, w: 0.18995897}
+    center: {x: -0.16474609, y: 0.04268016, z: 0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.29152843, y: 0.16516079, z: 0.27669376, w: 0.17087261}
+    distancesB: {x: 0.19055231, y: 0.09150825, z: 0.16866554, w: 0.14200886}
+    center: {x: -0.16474609, y: 0.37217236, z: -0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.16516079, y: 0.29152843, z: 0.17087261, w: 0.27669376}
+    distancesB: {x: 0.09150825, y: 0.18995897, z: 0.14200886, w: 0.16866554}
+    center: {x: -0.16474609, y: 0.37217236, z: 0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.23270473, y: 0.21196043, z: 0.19055231, w: 0.091508254}
+    distancesB: {x: 0.26406735, y: 0.25180745, z: 0.2874863, w: 0.18842864}
+    center: {x: 0.16474609, y: 0.04268016, z: -0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.21196043, y: 0.1956104, z: 0.091508254, w: 0.18995897}
+    distancesB: {x: 0.25180745, y: 0.27200162, z: 0.18842864, w: 0.2874863}
+    center: {x: 0.16474609, y: 0.04268016, z: 0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.19055231, y: 0.09150825, z: 0.16866554, w: 0.14200886}
+    distancesB: {x: 0.2874863, y: 0.18842864, z: 0.27243164, w: 0.16638152}
+    center: {x: 0.16474609, y: 0.37217236, z: -0.16474609, w: 0.16474609}
+    firstChild: -1
+  - distancesA: {x: 0.09150825, y: 0.18995897, z: 0.14200886, w: 0.16866554}
+    distancesB: {x: 0.18842864, y: 0.2874863, z: 0.16638152, w: 0.27243164}
+    center: {x: 0.16474609, y: 0.37217236, z: 0.16474609, w: 0.16474609}
+    firstChild: -1
+  maxError: 0.01
+  maxDepth: 5
